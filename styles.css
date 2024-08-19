@@ -200,3 +200,57 @@ h2 {
     }
 }
 
+/*Styles for Skills*/
+
+.skillSection {
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.skillSection p {
+    line-height: 1.5;
+    font-size: 2.0em;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.skillSection ul {
+    display: inline-block;
+    text-align: left;
+    list-style-type: square;
+    padding-left: 15px;
+    margin: 10px auto;
+    line-height: 2.0;
+    font-size: 3.0em;
+}
+
+@media (max-width: 1500px) {
+    .skillSection {
+        width: 950px;
+        height: auto;
+    }
+}
+
+/*Styles for Contact*/
+
+.contactInfo p {
+    font-size: 2.5em;
+}
+
+.contactInfo a {
+    color:green;
+    text-decoration: none;
+}
+
+.contactInfo h1 {
+    padding-bottom: 10px;
+}
+
+.contactInfo a:hover {
+    text-decoration: underline;
+}
+

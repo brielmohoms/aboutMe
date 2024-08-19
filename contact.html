@@ -1,21 +1,55 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Chrislie Briel Mohomye Yotchouen">
-        <title>aboutMe CBMY</title>
+        <title>Contact</title>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
-        <section class="header">
 
+    <body>
+
+        <section class="header">
             <nav class="naviBar">
                 <a href="home.html">Home</a>
-                <a href="aboutMe">About me</a>
-                <a href="skills">Skills</a>
-                <a href="contact">Contact</a>
+                <a href="aboutMe.html">About me</a>
+                <a href="skills.html">Skills</a>
+                <a href="contact.html">Contact</a>
             </nav>
-
         </section>
+
+        <section class="contactInfo">
+            <h1>Contact Information</h1>
+            <p><strong>Email:</strong> <a href="mailto:brielmohoms@yahoo.com">brielmohoms@yahoo.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+4915738223958">+4915738223958</a></p>
+            <p><strong>Address:</strong>Waldhausweg 15, 66123 Saarbrücken</p>
+        </section>
+
+        <section class="contactForm">
+            <h2>Send me a Message</h2>
+            <form action="/submit_form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section class="map">
+            <h2>Find me</h2>
+            <div id="map"></div>
+        </section>
+
+
     </body>
