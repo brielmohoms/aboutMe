@@ -1,2 +1,2 @@
 # aboutMe
-A simple website with everything about me
+A simple website with informations about myself.

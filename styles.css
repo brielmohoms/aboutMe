@@ -15,14 +15,8 @@ html{
     transition: all 1s ease-in-out
 }
 
-h1{
-    padding: 5px;
-    background-color:antiquewhite;
-}
-
 section{
     padding: 5rem 10%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/briel.jpg);
     overflow: hidden;
     background-size: cover !important;
     background-position: center !important;
@@ -37,7 +31,6 @@ section{
     padding-top: 2rem;
     padding-bottom: 2rem;
     border: none;
-    box-shadow:burlywood;
     background: azure;
 
     .naviBar{
@@ -238,7 +231,7 @@ h2 {
 /*Styles for Contact*/
 
 .contactInfo p {
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 
 .contactInfo a {
@@ -246,11 +239,79 @@ h2 {
     text-decoration: none;
 }
 
-.contactInfo h1 {
+.contactInfo h5 {
+    font-size: 4.0em;
     padding-bottom: 10px;
+    border-bottom: 2px solid #333;
 }
 
 .contactInfo a:hover {
+    text-decoration: underline;
+}
+
+.contactInfo {
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+@media (max-width: 1500px) {
+    .contactInfo {
+        width: 950px;
+        height: auto;
+    }
+}
+
+.contactForm {
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+@media (max-width: 1500px) {
+    .contactForm {
+        width: 950px;
+        height: auto;
+    }
+}
+
+.contactForm h6 {
+    font-size: 4.0em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.contactForm label {
+    display: block;
+    margin-top: 30px;
+    font-size: 1.5em;
+}
+
+.contactForm textarea {
+    width: 100%;
+    padding: 25px;
+    margin-top: 7px;
+    border-radius: 5px;
+    background-color: azure ;
+}
+
+.contactForm input{
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    background-color: azure ;
+}
+
+.contactForm button {
+    text-align: center;
+    font-size: 1.6em;
     text-decoration: underline;
 }
 
