@@ -68,14 +68,15 @@ section{
     }
 }
 
-@media screen and (max-width:1200px) {
+@media (min-width:2000px) {
+
     .naviBar{
      position: absolute;
      display: flex;
      flex-direction: column;
      background: azure;
      backdrop-filter:blue(70px);
-     width: 100%;
+     width: 800px;
      height: 40vh;
      justify-content: center;
      align-items: center;
@@ -101,8 +102,8 @@ section{
 
     .slide{
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/briel.jpg);
-        background-size: 800px !important;
-        background-position: center !important;
+        background-size: 750px !important;
+        background-position: center center !important;
         transition: all 1s ease-in-out;
         text-align: center;
         display: flex;
@@ -186,7 +187,7 @@ h2 {
     color: #777;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 2000px) {
     .personalInfo {
         width: 800px;
         height: auto;
@@ -221,7 +222,7 @@ h2 {
     font-size: 3.0em;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 2000px) {
     .skillSection {
         width: 950px;
         height: auto;
@@ -258,7 +259,7 @@ h2 {
     border-radius: 8px;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 2000px) {
     .contactInfo {
         width: 800px;
         height: auto;
@@ -273,7 +274,7 @@ h2 {
     border-radius: 10px;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 2000px) {
     .contactForm {
         width: 800px;
         height: auto;
