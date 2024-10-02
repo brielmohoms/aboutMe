@@ -55,17 +55,6 @@ section{
             margin-left:0;
         }
     }
-
-    .me{
-        display: none;
-        position: absolute;
-        top: 70px;
-        right: 70px;
-        width: 70px;
-        cursor: pointer;
-        border: 5px solid black;
-        height: 50px;
-    }
 }
 
 @media (min-width:2000px) {
